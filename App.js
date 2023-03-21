@@ -9,7 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import HomePage from './HomePage';
+import Index from './Index';
 import Intro from './intro';
 import Message from './Message';
 
@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
        <Routes>
-        <Route exact path="/" element={<HomePage/>} />
+        <Route exact path="/" element={<Index/>} />
         <Route path="/intro" element={<Intro/>} />
         <Route path="/Message" element={<Message/>} />
        </Routes>

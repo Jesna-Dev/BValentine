@@ -2,7 +2,7 @@ import { Button, Card } from 'antd'
 import React from 'react'
 import {useNavigate} from 'react-router-dom';
 
-function HomePage() {
+function Index() {
     const navigate = useNavigate();
     const coursesPage = () => {
         navigate("/intro")
@@ -21,4 +21,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default Index
